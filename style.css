@@ -106,6 +106,10 @@ ul li {
   font-weight: bold;
 }
 
+ul li::marker {
+  color: var(--text-secondary);
+}
+
 .content-card:nth-child(3) ul li,
 .content-card:nth-child(4) ul li {
   color: var(--accent-blue);
